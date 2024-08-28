@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 10% 0;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -29,4 +30,18 @@ h2 {
     /* color: #333; */
     color: var(--text-colorr);
 
+}
+
+@media (max-width: 850px){
+	.container_contact {
+        margin-bottom: 100px;
+    }
+    
+}
+@media (max-width: 650px){
+	.container_contact {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    
 }
