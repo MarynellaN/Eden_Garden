@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useLocalStorage} from '../../utils/useLocalStorage';
+import "./style.css";
 
 const BtnLanguage = () => {
 

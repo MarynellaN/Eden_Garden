@@ -9,6 +9,8 @@
 	--black-border: #26292d;
 	--white: #fff;
 	--purple: #731604;
+	--green: #731604;
+
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -41,16 +43,12 @@
 .dark {
 	/* Dark mode */
 
-	--page-bg: #252526;
-	--text-color: var(--white);
+	--page-bg: #731604;
+	--text-color: white;
 	--topic-bg: var(--page-bg);
 
 	--title-1: var(--white);
 
-	--locationType-card-bg: var(--black);
-	--locationType-card-text: var(--white);
-	--locationDescription-card-bg: var(--white);
-	--locationDescription-card-text: var(--black);
 	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
 
@@ -99,17 +97,10 @@ height: auto;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 1.3;
-	color: var(--title-1);
+	color: white;
 	text-align: center;
 }
 
-.title-2 {
-	margin-bottom: 20px;
-
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 1.3;
-}
 
 /* Btn */
 
@@ -162,42 +153,6 @@ height: auto;
 .btn-outline:active {
 	position: relative;
 	top: 1px;
-}
-
-/* Projects  */
-
-.locations {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	column-gap: 30px;
-	row-gap: 30px;
-}
-
-
-/* Content list */
-
-.content-list {
-	margin: 0 auto;
-	max-width: 570px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 40px;
-	text-align: center;
-}
-
-.content-list a {
-	color: var(--accent);
-}
-
-.content-list__item {
-	font-size: 18px;
-	line-height: 1.5;
-}
-
-.content-list__item p + p {
-	margin-top: 0.5em;
 }
 
 

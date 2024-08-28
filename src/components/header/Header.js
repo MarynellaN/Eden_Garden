@@ -1,12 +1,14 @@
 import "./style.css";
 
 const Header = () => {
+    let language = JSON.parse(localStorage.getItem("language"));
+
     return (
         <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__title">
                     <strong>
-                        Відпочинок в
+                    {language === 'uk' ? 'Відпочинок в' : 'Rest in'}
                         <br/><em>EdenGarden</em>
                     </strong>
                 </h1>
@@ -14,7 +16,7 @@ const Header = () => {
                     <p></p>
                 </div>
                 <a href="/contacts" className="btn">
-                    Контакти    
+                {language === 'uk' ? 'Контакти' : 'Contacts'}     
                 </a>
             </div>
         </header>
