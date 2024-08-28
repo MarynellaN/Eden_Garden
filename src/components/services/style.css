@@ -36,7 +36,7 @@
 }
 @media (max-width: 650px){
 	.container_services {
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: 120px;
     }
     
@@ -44,8 +44,8 @@
 
 @media (max-width: 450px){
 	.container_services {
-        margin-top: 20px;
-        margin-bottom: 250px;
+        margin-top: 50px;
+        margin-bottom: 300px;
     }
     
 }
