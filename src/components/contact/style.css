@@ -45,3 +45,11 @@ h2 {
     }
     
 }
+
+@media (max-width: 450px){
+	.container_contact {
+        margin-top: 20px;
+        margin-bottom: 300px;
+    }
+    
+}

@@ -27,3 +27,25 @@
     display: inline-block;
     width: 250px;
 }
+
+@media (max-width: 850px){
+	.container_services {
+        margin-bottom: 100px;
+    }
+    
+}
+@media (max-width: 650px){
+	.container_services {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    
+}
+
+@media (max-width: 450px){
+	.container_services {
+        margin-top: 20px;
+        margin-bottom: 250px;
+    }
+    
+}
